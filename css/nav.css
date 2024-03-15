@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 90vw;
+    display: flex;
+    background: #BC111D;
+    height: 70px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid #410003;
+    border-top: none;
+    z-index: 3;
+}
+.btn{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.container-btn{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+    width: 80%;
+    border-right: 3px solid #410003;
+    margin: 0;
+    padding-left: 0;
+}
+.container-check{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: 20%;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+i{
+    font-size: 35px;
+    color: white;
+    transition: color;
+}
+.bxs-home{
+    animation: progress-1 auto;
+    animation-timeline: scroll(root block);
+}
+@keyframes progress-1{
+    0%{
+        color: #0D61A4;
+        opacity: 1;
+    }
+    30%{
+        color: white;
+        opacity: 1;
+    }
+}
+.bxs-user{
+    animation: progress-2 auto;
+    animation-timeline: scroll(root block);
+}
+@keyframes progress-2 {
+    30%{
+        color: #0D61A4;
+        opacity: 1;
+    }
+    60%{
+        color: white;
+        opacity: 1;
+    }
+}
+.bxs-brain{
+    animation: progress-3 auto;
+    animation-timeline: scroll(root block);
+}
+@keyframes progress-3 {
+    49%{
+        color: white;
+        opacity: 1;
+    }
+    50%{
+        color: #0D61A4;
+        opacity: 1;
+    }
+    74%{
+        color: white;
+        opacity: 1;
+    }
+}
+.bxs-briefcase{
+    animation: progress-4 auto;
+    animation-timeline: scroll(root block);
+}
+@keyframes progress-4 {
+    74%{
+        color: white;
+        opacity: 1;
+    }
+    75%{
+        color: #0D61A4;
+        opacity: 1;
+    }
+    99%{
+        color: white;
+        opacity: 1;
+    }
+}
+.bxs-phone{
+    animation: progress-5 auto;
+    animation-timeline: scroll(root block);
+}
+@keyframes progress-5 {
+    99%{
+        color: white;
+        opacity: 1;
+    }
+    100%{
+        color: #0D61A4;
+        opacity: 1;
+    }
+}

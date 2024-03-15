@@ -1,0 +1,74 @@
+.checkIdi{
+    position: relative;
+    width: 50px;
+}
+.checkIdi::before  {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+    /* bottom: 1px; */
+}
+.checkIdi::after{
+    content: url('/img/spain.png');
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.checkIdi:checked::after{
+    content: url('/img/use.png');
+    left: 25px;
+    border: 2px solid #00a1ff;
+    background-color: #00a1ff;
+
+}
+.checkIdi:checked::before{
+    background-color: #00a1ff;
+}
+/*luz*/
+.checkLuz{
+    position: relative;
+    width: 50px;
+}
+.checkLuz::before  {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #0D61A4;
+    border-radius: 25px;
+}
+.checkLuz::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '🌞';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+
+    border: 2px solid #0D61A4;
+    box-sizing: border-box;
+}
+.checkLuz:checked::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '🌙';
+    background-color: #181818;
+    left: 25px;
+    border: 2px solid #FAD1D1;
+}
+.checkLuz:checked::before{
+    content: '';
+    background-color: #FAD1D1;
+}
+

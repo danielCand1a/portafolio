@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/toggles.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="icon" href="../img/portafolio.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Briefcase</title>
+</head>
+<body>
+    <header>
+        <ul class="container-btn">
+            <li class="btn">
+                <a href="#home"><i class='bx bxs-home'></i></a>
+            </li>
+            <li class="btn">
+                <a href="#person"><i class='bx bxs-user'></i></a>
+            </li>
+            <li class="btn">
+                <a href="#skill"><i class='bx bxs-brain'></i></a>
+            </li>
+            <li class="btn">
+                <a href="#project"><i class='bx bxs-briefcase'></i></a>
+            </li>
+            <li class="btn">
+                <a href="#contact"><i class='bx bxs-phone'></i></a>
+            </li> 
+        </ul>
+        <div class="container-check">
+            <input type="checkbox" class="checkIdi" checked>
+            <input type="checkbox" class="checkLuz">
+        </div>
+    </header>
+    <main>
+        <div class="item" id="home">
+            <h1 class="titulo">HOME</h1>
+            <h2 class="noche">Hello, I am</h2>
+            <h1 class="noche">Daniel Candia</h1>
+            <h2 class="noche name-prg">Full-Stack Developer</h2>
+            <a  class="cv"  href="" download="CV-danielCandia">
+                <h3 class="noche">Download CV</h3>
+                <i class='bx bx-download'></i>
+            </a>
+            <img src="../img/gatituuu.png" alt="">
+        </div>
+        <div class="item" id="person">
+            <h1 class="titulo">ABOUT ME</h1>
+            <p class="noche"><span class="Spange">Hello, I'm Daniel Candia. </span>I am a full-stack developer with solid foundations in frontend and backend to contribute my knowledge and dedication to a company that requests my services. I completed my studies at the programming school "Academlo" where I learned programming technologies such as javascript, html, css, react, nodejs among others.</p>
+            <div>
+                <h2 class="noche">Personal Information</h2>
+                <ul>
+                    <li class="noche"><span class="Spange">Birthdate:</span> 01-05-2000</li>
+                    <li class="noche"><span class="Spange">Phone:</span> +51 952 382 286</li>
+                    <li class="noche"><span class="Spange">Email:</span> dacandiaaguilar@gmail.com</li>
+                    <li class="noche"><span class="Spange">Address:</span> Puerto Maldonado, Perú</li>
+                </ul>
+            </div>
+            <h2 class="noche">My interests</h2>
+            <div class="interes">
+                <div class="caja">
+                    <i class='bx bx-headphone'></i>
+                    <span class="Spange">music</span>
+                </div>
+                <div class="caja">
+                    <i class='bx bx-dumbbell'></i>
+                    <span class="Spange">fitness</span>
+                </div>
+                <div class="caja">
+                    <i class='bx bxs-book'></i>
+                    <span class="Spange">books</span>
+                </div>
+                <div class="caja">
+                    <i class='bx bxs-camera-movie'></i>
+                    <span class="Spange">movies</span>
+                </div>
+                <div class="caja">
+                    <i class='bx bxl-dev-to'></i>
+                    <span class="Spange">software</span>
+                </div>
+            </div>
+        </div>
+        <div class="item" id="skill">
+            <h1 class="titulo">SKILLS</h1>
+            <p class="noche parrafo">know the skills I have developed!</p>
+            <section class="program">
+               <div>
+                    <i class='bx bxl-html5' ></i>
+                    <h2 class="noche">HTML 5</h2>
+                    <p  class="noche">Great knowledge to structure and layout your website.</p>
+               </div> 
+               <div>
+                    <i class='bx bxl-css3' ></i>
+                    <h2 class="noche">CSS</h2> 
+                    <p  class="noche">Good experience and management to style the components for your website, aesthetic and completely responsive designs.</p>    
+               </div> 
+               <div>
+                    <i class='bx bxl-react'></i>
+                    <h2 class="noche">REACT JS</h2>
+                    <p class="noche">Specialized in this library to layout and add functionalities to your website to offer a higher quality product.</p>
+               </div> 
+               <div>
+                    <i class='bx bxl-javascript'></i>
+                    <h2 class="noche">JAVASCRIPT</h2>
+                    <p class="noche">Enough knowledge of the engine and functionalities to cover your needs.</p>
+               </div> 
+               <div>
+                    <i class='bx bxl-nodejs'></i>
+                    <h2 class="noche">NODE JS</h2>
+                    <p class="noche">Knowledge in this open code environment, to make complete and functional web applications.</p>
+               </div>
+               <div>
+                    <i class='bx bxl-nodejs'></i>
+                    <h2 class="noche">EXPRESS</h2>
+                    <p class="noche">Especializado en esta libreria para realizar API's funcionales para realizar aplicaciones Front-end.</p>
+               </div>
+            </section>
+        </div>
+        <div class="item" id="project">
+            <h1 class="titulo">PROJECTS</h1>
+            <div id="conteItemsCarrusel">
+                <div class="itemCarrusel" id="itemCarrusel-1">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        <h2 class="noche"> #1 Pokedex</h2>
+                        <img src="../img/pokedex.PNG" alt="pokedex">
+                        <p class="noche">The project consists of using an endpoint and displaying the information in the application to search for Pokémon by name thanks to an input and/or filtering it by its type.</p>
+                        <ul>
+                            <li class="noche"><span>Technology:</span> React</li>
+                            <li class="noche"><span>Libraries:</span> axios, react-redux, react-router-dom</li>
+                            <li class="noche"><span>Role:</span> Front-End</li>
+                        </ul>  
+                    </div>       
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-5"><i class='bx bxs-chevron-left'></i></a>
+                        <a href="#itemCarrusel-2"><i class='bx bxs-chevron-right'></i></a>
+                        <div class="project-link">
+                            <a href="https://github.com/danielCand1a/Pokedex5" target="_blank"><i class='bx bxl-github bx-fade-left'></i></a>
+                            <a href="https://pokedexforpoor.netlify.app" target="_blank"><i class='bx bx-desktop bx-fade-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel-2">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        <h2 class="noche">#2 Rick and Morty</h2>
+                        <img src="../img/rickmorty.PNG" alt="">
+                        <p class="noche">Using an endpoint we move the information to show the characters of Rick and Morty according to the universe where they live, searching for an input.</p>
+                        <ul>
+                            <li class="noche"><span>Technology:</span> React</li>
+                            <li class="noche"><span>Libraries:</span> axios</li>
+                            <li class="noche"><span>Role:</span> Front-End</li>
+                        </ul>   
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-1"><i class='bx bxs-chevron-left'></i></a>
+                        <a href="#itemCarrusel-3"><i class='bx bxs-chevron-right'></i></a>
+                        <div class="project-link">
+                            <a href="https://github.com/danielCand1a/rickAndMorty" target="_blank"><i class='bx bxl-github bx-fade-left'></i></a>
+                            <a href="https://rickmortytomoon.netlify.app" target="_blank"><i class='bx bx-desktop bx-fade-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        <h2 class="noche">#3 User Crud</h2>
+                        <img src="../img/usercrud.PNG" alt="">
+                        <p class="noche">In this project, crud methods are used for users with their respective data.</p>
+                        <ul>
+                            <li class="noche"><span>Technology:</span> React</li>
+                            <li class="noche"><span>Libraries:</span> axios, react-hook-form</li>
+                            <li class="noche"><span>Role:</span> Front-End</li>
+                        </ul>
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-2"><i class='bx bxs-chevron-left'></i></a>
+                        <a href="#itemCarrusel-4"><i class='bx bxs-chevron-right'></i></a>
+                        <div class="project-link">
+                            <a href="https://github.com/danielCand1a/userCrud" target="_blank"><i class='bx bxl-github bx-fade-left'></i></a>
+                            <a href="https://registeruserscrud.netlify.app" target="_blank"><i class='bx bx-desktop bx-fade-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel-4">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-4">
+                        <h2 class="noche">#4 E-commerce App</h2>
+                        <p class="noche">In this project I used the view controller model to create a backend for an ecommerce using the bcrypt library to encrypt the passwords and make them more secure and also the Json Web Token library to allow unique access to each user registered on the website.</p>
+                        <ul>
+                            <li class="noche"><span>Technology:</span> Node js</li>
+                            <li class="noche"><span>Libraries:</span> express, bcrypt, cloudinary, jsonwebtoken</li>
+                            <li class="noche"><span>Role:</span> Back-End</li>
+                        </ul>   
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-3"><i class='bx bxs-chevron-left'></i></a>
+                        <a href="#itemCarrusel-5"><i class='bx bxs-chevron-right'></i></a>
+                        <div class="project-link">
+                            <a href="https://github.com/danielCand1a/ecommecer-app" target="_blank"><i class='bx bxl-github bx-burst'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel-5">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-5">
+                        <h2 class="noche">#5 Movie App</h2>
+                        <p class="noche">In this project I used the view controller model to create a backend for a cinema website using the express library that allows you to create a node project, since it contains the necessary basic configuration.</p>
+                        <ul>
+                            <li class="noche"><span>Technology:</span> Node js</li>
+                            <li class="noche"><span>Libraries:</span> express</li>
+                            <li class="noche"><span>Role:</span> Back-End</li>
+                        </ul>
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-4"><i class='bx bxs-chevron-left'></i></a>
+                        <a href="#itemCarrusel-1"><i class='bx bxs-chevron-right'></i></a>
+                        <div class="project-link">
+                            <a href="https://github.com/danielCand1a/movieApp-backend" target="_blank"><i class='bx bxl-github bx-burst'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contePuntos">
+              <a class="noche" href="#itemCarrusel-1">1</a>  
+              <a class="noche" href="#itemCarrusel-2">2</a>
+              <a class="noche" href="#itemCarrusel-3">3</a>
+              <a class="noche" href="#itemCarrusel-4">4</a>
+              <a class="noche" href="#itemCarrusel-5">5</a>
+            </div>
+        </div>
+        <div class="item" id="contact">
+            <h1 class="titulo">CONTACT</h1>
+            <h2 class="noche">Write me an mail!</h2>
+            <form class="formulate" action="https://formsubmit.co/dacandiaaguilar@gmail.com" method="POST">
+                <label class='noche' for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="What's your name? 👀">
+
+                <label class='noche' for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="What's your email? 📬">
+
+                <label class="noche" for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="Write the subject. 🧐">
+
+                <label class="noche" for="coments">Message:</label>
+                <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Write the message you want to send me. 😀"></textarea>
+                <div class="contactxd">
+                    <input id="contact-btn" type="submit" value="SEND">
+                </div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#contact">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            <h2 class="noche">My social networks</h2>
+            <div class="socialRed">
+                <a href="https:/wa.me/952382286?text=Hi%20Daniel" target="_blank"><i class='bx bxl-whatsapp bx-spin'></i></a>
+                <a href="https://github.com/danielCand1a" target="_blank"><i class='bx bxl-github bx-spin'></i></a>
+                <a href="https://www.linkedin.com/in/daniel-a-candia-019235256/" target="_blank"><i class='bx bxl-linkedin-square bx-spin'></i></a>
+                <a href="https://www.instagram.com/danieltt_ttcandia/" target="_blank"><i class='bx bxl-instagram bx-spin' ></i></a>
+            </div>
+        </div>
+        <a href="https:/wa.me/952382286?text=Hi%20Daniel" target="_blank"><i class='bx bxl-whatsapp-square bx-tada' ></i></a>     
+    </main>
+    <script src="../js/app.js"></script>
+</body>
+</html>
