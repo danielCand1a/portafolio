@@ -443,3 +443,42 @@ form #contact-btn{
         font-size: 80px;
     }
 }
+@media (max-height: 668px){
+    header{
+        height: 65px;
+    }
+    .item{
+        height: 602px;
+        scroll-margin-top: 9ex;
+    }
+    #home img{
+        width: 250px;
+    }
+    .noche{
+        font-size: 13px;
+    }
+    .titulo{
+        font-size: 18px;
+    }
+    .program div{
+        height: 150px;
+        width: 140px;
+        box-sizing: border-box;
+    }
+    .caja{
+        width: 50px;
+        height: 50px;
+    }
+    #conteItemsCarrusel{
+        height: 450px;
+    }
+    .asd {
+        font-size: 10px !important; 
+    }
+    .caja span{
+        font-size: 12px;
+    }
+    .name-prg{
+        width: 153px;
+    }
+}
