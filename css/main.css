@@ -350,6 +350,12 @@ form #contact-btn{
     right: 5%;
     font-size: 60px;
 }
+.h3-email{
+    width: 90%;
+    font-family: "Arvo", serif;
+    font-size: 16px;
+    text-align: justify;
+}
 /*Dark*/
 .active-body{
     background-color: #181818;
@@ -407,6 +413,9 @@ form #contact-btn{
 @media (min-width: 666px){
     #conteItemsCarrusel{
         width: 539.44px;
+    }
+    .h3-email{
+        width: 540px;
     }
     .formulate{
         width: 539.44px;

@@ -32,7 +32,7 @@ modal.addEventListener('click', function(){
         projects[j].classList.toggle('active-project')
     }
 
-    for(let n=0; n<60; n++){
+    for(let n=0; n<61; n++){
         noche[n].classList.toggle('active')
     }
  
