@@ -184,8 +184,7 @@ html{
     height: inherit;
     width: 100%;
     position: relative;
-    background-color: #FFE6E2;
-    
+    background-color: #FFE6E2;  
 }
 .tarjetaCarrusel{
     height: 90%;
@@ -331,7 +330,7 @@ form #contact-btn{
     color: black;
 }
 .bxl-linkedin-square{
-    color: blue;
+    color: rgba(0, 0, 255, 0.781);
 }
 .bxl-instagram{
     color: #CA495F;
