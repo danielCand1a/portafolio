@@ -40,3 +40,29 @@ modal.addEventListener('click', function(){
         span[p].classList.toggle('active-span')
     }
 })
+addEventListener('DOMContentLoaded', ()=>{
+    const secciones = document.querySelectorAll('.item')
+    const menuItems = document.querySelectorAll('.container-btn i')
+
+    const funcionObserver = entries =>{
+        entries.forEach(entry =>{
+            if(entry.isIntersecting){
+                const itemActual = Array.from(menuItems).find(items=>items.dataset.url === entry.target.id)
+
+                itemActual.classList.add('active_btn')
+                for(const items of menuItems){
+                    if(items != itemActual){
+                        items.classList.remove('active_btn')
+                    }
+                }
+            }
+        })
+    }
+
+    const observer = new IntersectionObserver(funcionObserver,{
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.8
+    })
+    secciones.forEach(seccion => observer.observe(seccion))
+})
