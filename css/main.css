@@ -356,6 +356,10 @@ form #contact-btn{
     font-size: 16px;
     text-align: justify;
 }
+.h3-email a{
+    text-decoration: underline;
+    font-weight: bolder;
+}
 /*Dark*/
 .active-body{
     background-color: #181818;
