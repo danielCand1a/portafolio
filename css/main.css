@@ -434,7 +434,15 @@ form #contact-btn{
     .item{
         width: 1170px;
     }
+    .bxl-whatsapp-square{
+        right: 20%;
+    }
 }
+/* @media (min-width: 1330px){
+    .bxl-whatsapp-square{
+        right: 15px;
+    }
+} */
 @media (min-width: 950px){
     .program{
         width: 855px;
