@@ -10,7 +10,6 @@ html{
     background: #9FC9FF;
     width: 90vw;
     height: 845px;
-    border-radius: 5px;
     scroll-margin-top: 10ex;
 }
 .main{
@@ -198,6 +197,7 @@ html{
     margin: 0;
     padding: 0;
     width: 80%;
+
 }
 .tarjetaCarrusel p, ul{
     font-family: "Arvo", serif;
@@ -223,10 +223,10 @@ html{
     color: black;
 }
 .flechasCarrusel{
-    height: 100%;
+    height: 100%; 
+    width: 100%; 
     position: absolute;
     top: 0;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -273,7 +273,6 @@ html{
     color: black;
 }
 /*Contact*/
-
 .formulate{
     display: flex;
     flex-direction: column;
